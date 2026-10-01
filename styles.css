@@ -1,0 +1,26 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex; /* Make it a horizontal flex container */
+    justify-content: space-between; /* Distribute items evenly */
+    text-align: center;
+}
+
+.navbar a {
+    margin: 0 10px; /* Add space between links */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.narrow-content {
+    max-width: 1100px; /* Adjust the value as needed */
+    margin: 0 auto; /* Center the content */
+}
+
+main {
+    margin-top: 60px; /* Adjust this value to leave space for the fixed navbar */
+}
